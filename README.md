@@ -1,8 +1,15 @@
-# ODBC Refactor
+# ext/odbci
 
-Refactoring [ODBC](http://php.net/odbc) in PHP 7.next
+Refactoring [ext/odbc](http://php.net/odbc) to ext/odbci (ODBC improved)
 
-## Functional API
+## Installation
 
-## OO API
+Install [iODBC](http://www.iodbc.org/) on Ubuntu:
 
+```bash
+$ sudo apt-get install libiodbc2 iodbc
+```
+
+## API
+
+See [the wiki](https://github.com/SammyK/php-src-odbci/wiki).
